@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>bootstrap</title>
+        <style>
+            .bg-body-tertiary1{
+                background-color:rgb(41, 51, 42) !important ;
+                height: 200px;
+                text-align: center;
+                color: white;
+            }
+            .card-body{
+                text-align: center;
+            }
+            .card1{
+                width: 450px;
+                height: 300px;
+                /* border: 1px dashed black; */
+            }
+            .pro{
+                margin-top: 30px;
+            }
+            .sal{
+                position: absolute;
+                right: 0;
+                padding: 10px;
+              
+            }
+            .sal p{
+              font-size: 14px;
+              width: 40px;
+              text-align: center;
+              background-color: black;
+                color: white;
+                border-radius: 4px;
+            }
+            .cart{
+           margin-top: 5px;
+
+            }
+            .badge{
+               margin-left: 5px;
+               border-radius: 50%;
+               width:20px;
+               height: 20px;
+            }
+            .star{
+                color:#FF912C;
+            }
+            .star:hover{
+                    color:#FFCC36;
+            }
+            .add{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .bg-body-tertiary{
+                background-color: white !important;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Start BootStrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav">
+                    <li class="nav-item cart">
+                        <button type="button" class="btn btn-outline-dark">
+                            <i class="bi bi-cart-fill"></i>
+                            cart<Span class="badge text-bg-danger">0</Span>
+                        </button>
+                     
+                      </li>
+    
+                  </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- <nav class="py-2  border-bottom">
+            <div class="container d-flex flex-wrap">
+              <ul class="nav me-auto">
+                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pricing</a></li>
+           
+              </ul>
+              <ul class="nav">
+                <li class="nav-item cart">
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-cart-fill"></i>
+                        cart<Span class="badge text-bg-danger">0</Span>
+                    </button>
+                 
+                  </li>
+
+              </ul>
+            </div>
+           
+          </nav> -->
+            <div class="p-5 mb-4 bg-body-tertiary1 ">
+                <h1>Shop in style</h1>
+                <p>
+                    With this shop hompeage template
+                </p>
+               
+            </div>
+            <!-- product -->
+<div class="container ">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 pro">
+            <div class="col">
+                <div class="card h-100">
+                  <img src="image/per.png" class="card" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Funcy Product</h5>
+                    <p>$40.00 - $80.00 </p>
+                  </div>
+                  <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        View option
+                    </button>
+                  </div>
+                 
+                </div>
+                
+              
+              </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/per.png" class="card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special Item</h5>
+                  <span class="bi star  bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <p><del>$20.00</del> - $18.00 </p>
+                </div>
+                <div class="sal">
+                    <p>sals</p> 
+                 </div>
+                 <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        Add to cart
+                    </button>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/per.png" class="card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sale Item</h5>
+                  <p><del>$50.00</del> - $25.00 </p>
+                </div>
+                <div class="sal">
+                    <p>sals</p> 
+                 </div>
+                 <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        Add to cart
+                    </button>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/per.png" class="card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Popular Item</h5>
+                  <span class="bi star  bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <p>$40.00 </p>
+                </div>
+                <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        Add to cart
+                    </button>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="image/per.png" class="card" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sale Item</h5>
+                    <p><del>$50.00</del> - $25.00 </p>
+                </div>
+                <div class="sal">
+                    <p>sals</p> 
+                 </div>
+                 <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/per.png" class="card" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Fancy Product</h5>
+                    <p>$40.00 - $80.00 </p>
+                  </div>
+                  <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        View option
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/per.png" class="card" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Special Item</h5>
+                    <span class="bi star  bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <p><del>$20.00</del> - $18.00 </p>
+                  
+                  </div>
+                  <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/per.png" class="card" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Popular Item</h5>
+                    <span class="bi star  bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                  <span class="bi star bi-star-fill"></span>
+                
+                    <p>$40.00</p>
+                  </div>
+                  <div class="add">
+                    <button type="button" class="btn btn-outline-dark">
+                        Add to cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      
+    </body>
+</html>
