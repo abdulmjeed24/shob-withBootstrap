@@ -17,11 +17,7 @@
             .card-body{
                 text-align: center;
             }
-            .card1{
-                width: 450px;
-                height: 300px;
-                /* border: 1px dashed black; */
-            }
+        
             .pro{
                 margin-top: 30px;
             }
@@ -31,7 +27,11 @@
                 padding: 10px;
               
             }
-            .sal p{
+            .position-absolute{
+              right: 0;
+                padding: 10px;
+            }
+            .position-absolute p{
               font-size: 14px;
               width: 40px;
               text-align: center;
@@ -50,7 +50,8 @@
                height: 20px;
             }
             .star{
-                color:#FF912C;
+                /* color:#FF912C; */
+                color:#FFCC36;
             }
             .star:hover{
                     color:#FFCC36;
@@ -66,7 +67,8 @@
         </style>
     </head>
     <body>
-        <div class="container">
+      <main>
+       <div class="container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Start BootStrap</a>
@@ -98,35 +100,12 @@
                             <i class="bi bi-cart-fill"></i>
                             cart<Span class="badge text-bg-danger">0</Span>
                         </button>
-                     
                       </li>
-    
                   </ul>
               </div>
             </div>
           </nav>
         </div>
-        <!-- <nav class="py-2  border-bottom">
-            <div class="container d-flex flex-wrap">
-              <ul class="nav me-auto">
-                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pricing</a></li>
-           
-              </ul>
-              <ul class="nav">
-                <li class="nav-item cart">
-                    <button type="button" class="btn btn-outline-dark">
-                        <i class="bi bi-cart-fill"></i>
-                        cart<Span class="badge text-bg-danger">0</Span>
-                    </button>
-                 
-                  </li>
-
-              </ul>
-            </div>
-           
-          </nav> -->
             <div class="p-5 mb-4 bg-body-tertiary1 ">
                 <h1>Shop in style</h1>
                 <p>
@@ -135,8 +114,7 @@
                
             </div>
             <!-- product -->
-<div class="container ">
-
+<div class="container container-fluid text-center mb-5 mt-5">
         <div class="row row-cols-1 row-cols-md-4 g-4 pro">
             <div class="col">
                 <div class="card h-100">
@@ -150,10 +128,7 @@
                         View option
                     </button>
                   </div>
-                 
                 </div>
-                
-              
               </div>
             <div class="col">
               <div class="card h-100">
@@ -167,7 +142,7 @@
                   <span class="bi star bi-star-fill"></span>
                   <p><del>$20.00</del> - $18.00 </p>
                 </div>
-                <div class="sal">
+                <div class="position-absolute">
                     <p>sals</p> 
                  </div>
                  <div class="add">
@@ -184,9 +159,9 @@
                   <h5 class="card-title">Sale Item</h5>
                   <p><del>$50.00</del> - $25.00 </p>
                 </div>
-                <div class="sal">
-                    <p>sals</p> 
-                 </div>
+                <div class="position-absolute">
+                  <p>sals</p> 
+               </div>
                  <div class="add">
                     <button type="button" class="btn btn-outline-dark">
                         Add to cart
@@ -220,9 +195,9 @@
                     <h5 class="card-title">Sale Item</h5>
                     <p><del>$50.00</del> - $25.00 </p>
                 </div>
-                <div class="sal">
-                    <p>sals</p> 
-                 </div>
+                <div class="position-absolute">
+                  <p>sals</p> 
+               </div>
                  <div class="add">
                     <button type="button" class="btn btn-outline-dark">
                         Add to cart
@@ -274,6 +249,7 @@
                   <span class="bi star bi-star-fill"></span>
                   <span class="bi star bi-star-fill"></span>
                   <span class="bi star bi-star-fill"></span>
+                 
                 
                     <p>$40.00</p>
                   </div>
@@ -286,6 +262,14 @@
               </div>
           </div>
         </div>
-      
-    </body>
+        <footer class="footer p-4 bg-dark text-white text-center fs-4">
+          Copyright &copy; Your Website 2023
+          <div class="fs-5 fw-normal">
+            Design By \Abdulmjeed Al-Asri
+          </div>
+      </footer>
+  </main>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        </body>
 </html>
